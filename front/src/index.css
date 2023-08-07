@@ -1,0 +1,34 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+#header-app {
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+  color: white;
+}
+
+#main-app {
+  height: calc(100vh - 70px);
+  background-color: white;
+  margin: 0 auto;
+  width: 80%;
+}
+#main-app > section {
+  padding-top: 20px;
+}
+
+.choose {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 5;
+}
+
+.choose > button {
+  width: 49%;
+}
